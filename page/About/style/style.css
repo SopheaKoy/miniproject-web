@@ -76,9 +76,7 @@ hr {
     height: 260px;
 }
 
-.container {
-    width: 1140px;
-}
+
 
 @media(max-width: 768px) {
     .container {
@@ -115,3 +113,18 @@ hr {
     }
    
   }
+  /* design new */
+.navbar-nav{
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    color: whitesmoke !important;
+    
+}
+.navbar-brand > text-center > h1{
+   background-color: red;
+}
+#new-nav{
+    background-color: #33313B !important;
+   
+}
+/* end of nav bar */

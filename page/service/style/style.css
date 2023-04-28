@@ -33,20 +33,12 @@ footer {
 .navbar-toggler {
     color: white;
 }
-
-.container {
-    width: 1140px !important;
-}
-
 header a {
-    font-size: 18px;
+    /* font-size: 18px; */
 
 }
 
-.btn {
-    width: 95px;
-    height: 37px;
-}
+
 .btnlogin{
     background-color: #F9AB30 !important;
 
@@ -55,10 +47,7 @@ header a {
     background-color: #F9AB30 !important;
 
 }
-.btnlogin:hover{
-    background-color: transparent !important;
-    color: white !important;
-}
+
 
 .banner-header {
     font-family: 'Averia Serif Libre', cursive;
@@ -257,17 +246,8 @@ li {
     .partner-list  {
         margin-left: 13rem !important;
     }
-
-  
-  
     
 }
-    
-
-
-
-
-
 
 @media only screen and (max-width: 480px) {
     #nav{
@@ -379,3 +359,19 @@ li {
     }
 
   }
+  
+/* design new */
+.navbar-nav{
+    font-size: 18px;
+    font-weight: 400;
+    color: whitesmoke !important;
+    
+}
+.navbar-brand > text-center > h1{
+   background-color: red;
+}
+#new-nav{
+    background-color: #33313B !important;
+   
+}
+/* end of nav bar */

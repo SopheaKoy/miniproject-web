@@ -6,7 +6,7 @@
 .background1 {
 
     background-color: #33313B !important;
-    padding: 3px;
+  
 }
 h1{
     padding-top: 70px;
@@ -111,14 +111,9 @@ h5{
 a{
     color: #FFFF !important;
     text-decoration: none !important;
-    font-size: 20px !important;
+    /* font-size: 20px !important; */
 }
-.Header{
-    top:0;
-    position: sticky !important;
-    z-index: 1;
 
-}
 .Buttom{
     margin: 40px;
     /* margin-left: 200px; */
@@ -187,12 +182,12 @@ hr {
     background: #f9ab30;
 }
 
-.ftco-navbar-light.scrolled.awake {
+/* .ftco-navbar-light.scrolled.awake {
     margin-top: 0px;
     -webkit-transition: .3s all ease-out;
     -o-transition: .3s all ease-out;
     transition: .3s all ease-out;
-}
+} */
 
 z-index-custom-back {
     z-index: -1 !important;
@@ -222,3 +217,18 @@ z-index-custom-front {
     font-family: 'Black Han Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+/* design new */
+.navbar-nav{
+    font-size: 18px !important;
+    font-weight: 400;
+    color: whitesmoke !important;
+    
+}
+.navbar-brand > text-center > h1{
+   background-color: red;
+}
+#new-nav{
+    background-color: #33313B !important;
+   
+}
+/* end of nav bar */

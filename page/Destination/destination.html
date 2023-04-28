@@ -15,30 +15,43 @@
           <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-     <header class="Header">
-          <nav class="navbar navbar-expand-lg background1 pt-4 pb-3 ">
-               <div class="container">
-                    <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-white text-decoration-none">
-                         <img class="logo ps-5" src="../../assets/images/DestinationImage/NavBAr1.jpg" alt="logo"></a>
-                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                         <span class="navbar-toggler-icon bg-light "></span>
-                    </button>
-                    <div class="collapse navbar-collapse ms-5 ps-5" id="navbarSupportedContent">
-                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-6">
-                              <li><a href="../Home/Homepage.html" class="nav-link px-2 text-white ps-3 pe-2">Home</a></li>
-                              <li><a href="../service/page/service.html" class="nav-link px-2 text-white ps-3 pe-3">Service</a></li>
-                              <li><a href="#" class="nav-link px-2 text-white ps-3 pe-3">Destination</a></li>
-                              <li><a href="../About/page/About.html" class="nav-link px-2 text-white ps-3 pe-3">About Us</a></li>
-                         </ul>
-                         <div class="col-md-3 text-end pe-5">
-                             <a href="../login/loginPage.html"><button type="button" class="btn btn-outline-warning me-2">Login</button></a>
-                         <a href="../sign up/signup.html"><button type="button" class="btn btn-warning">Sign-up</button></a>
-                         </div>
-                    </div>
-               </div>
-          </nav>
-     </header>
+     <header class="sticky-top top-0">
+          <nav class="navbar navbar-expand-lg " id="new-nav">
+              <div class="container d-flex justify-content-between">
+                <button class="navbar-toggler  bg-white"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                 <div class="d-flex justify-content-between w-100 align-items-center">
+                  <a class="navbar-brand" href="./Homepage.html">
+                      <img src="./../../assets/images/DestinationImage/logo.png" alt="" width="100"  class="d-inline-block align-text-top">
+                  </a>
+                  <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                      <a class="nav-link text-white" aria-current="page" href="../../page/Home/Homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" aria-current="page" href="./../service/page/service.html">Service</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" aria-current="page" href="./destination.html">Destination</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" aria-current="page" href="../../page/About/page/About.html">About  Us</a>
+                    </li>
+                   
+                  </ul>
+                  <div class=" text-end pe-5">
+                      <a href="../../page/login/loginPage.html"><button type="button"
+                              class="btn btn-outline-warning me-2">Login</button></a>
+                      <a href="../../page/sign up/signup.html"><button type="button" class="btn btn-warning">Sign-up</button></a>
+                  </div>
+                 </div>
+                </div>
+              </div>
+            </nav>
+         
+      </header>
 
      <main >
           <section>
