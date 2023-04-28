@@ -83,7 +83,6 @@ body {
     background-color: #eeee;
 }
 
-.set-hight-width {}
 
 .avatar {
     width: 100px;
@@ -139,24 +138,7 @@ hr {
         background-color: #33313B !important;
         width: 500px !important;
     }
-    .ms-mt-5{
-        margin-left: 11rem!important;
-    }
-    .card-fb {
-        background-color: #ffffff;
-        border-radius: 10px;
-        height: 272px;
-        width: 35rem!important;
-        margin: 0 !important;
-       position: relative;
-       left: -15%;
-    
-     
-    }
-    #tourist-fb{
-        /* margin-left: 9rem!important; */
-
-    }
+  
 }
 
 
@@ -232,3 +214,58 @@ hr {
     color: rgb(0, 0, 0);
 }
 }
+
+/* design new */
+.navbar-nav{
+    font-size: 18px;
+    font-weight: 400;
+    color: whitesmoke !important;
+    
+}
+.navbar-brand > text-center > h1{
+   background-color: red;
+}
+#new-nav{
+    background-color: #33313B !important;
+   
+}
+/* end of nav bar */
+@media only screen and (max-width: 430px) {
+    .img-fluid{
+        width: 425px!important;
+        
+    }
+    .container{
+        width: 425px!important;
+        display: block!important;
+    }
+    .navbar-nav{
+        width: 425px!important;
+    }
+    #body{
+        width: 425px!important;
+    }
+    footer{
+        width: 425px!important;
+    }
+    .card-fb{
+        margin-top: 0 !important;
+        margin-bottom: 15px!important;
+       }
+       .ms-md-5{
+           margin-left: 0!important;
+       }
+       #tourist-fb{
+           margin-left: 0!important;
+   
+       }
+       .set-height-width{
+            padding: 0!important;
+            padding-left: 10px!important;
+            padding-right: 10px!important;
+          
+              
+       }
+       
+}
+
