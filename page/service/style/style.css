@@ -26,17 +26,12 @@ footer {
     background: #ffffff !important;
 }
 
-.navbar-text {
-    margin-left: 300px;
-}
+
 
 .navbar-toggler {
     color: white;
 }
-header a {
-    /* font-size: 18px; */
 
-}
 
 
 .btnlogin{
@@ -96,7 +91,7 @@ li {
 }
 
 .box {
-    width: 560px !important;
+    /* width: 560px !important; */
 }
 
 footer li {
@@ -115,7 +110,7 @@ li {
 }
 
 .titleAndDesc {
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .star-rate {
@@ -162,9 +157,7 @@ li {
         height: 40px;
         border-radius: 50%;
         position: absolute;
-
     }
-
     .circle>img {
         position: relative;
         top: 5px;
@@ -186,7 +179,6 @@ li {
     }
 
     .btn-book {
-
         background-color: #F9AB30;
         border: none;
         padding: 10px;
@@ -207,9 +199,9 @@ li {
         margin-top: 10px !important;
     }
 
-    .partner-list {
+    /* .partner-list {
         width: 430px !important;
-    }
+    } */
 
     .partner-box {
         height: 140 px !important;
@@ -225,16 +217,16 @@ li {
     position: relative;
     bottom: -20px;
 }
-#partner-box{
+/* #partner-box{
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-}
+} */
 
 }
 @media screen and (min-width: 768px) and (max-width:1025px) {
     .partner-list  {
-        margin-left: 8rem !important;
+        /* margin-left: 8rem !important; */
     }
     
   
@@ -267,13 +259,13 @@ li {
         left: 0 !important;
 
     }
-    .container{
+    /* .container{
         width: 480px!important;
         height: 100%;
         margin: 0;
         padding: 0;
         margin-left: 20px!important;
-    }
+    } */
 
     .title {
         margin-left: 50px;
@@ -309,8 +301,6 @@ li {
     }
 
     #banner-logo {
-
-
         width: 190px;
         height: 250px;
         position: relative;
@@ -322,9 +312,9 @@ li {
         font-family: 'Averia Serif Libre', cursive;
         font-family: 'Roboto', sans-serif;
         font-weight: bolder;
-        font-size: 14px;
+        font-size: 17px !important;
         line-height: 20px;
-        width: 174px;
+        width: 150px;
 
     }
     .star-rate {
@@ -340,7 +330,7 @@ li {
     /* footer style for mobile  */
     footer {
         background-color: #33313B !important;
-        width: 500px !important;
+        /* width: 500px !important; */
 
     }
     .btn-book {
