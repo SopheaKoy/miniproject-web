@@ -100,10 +100,10 @@ body {
 .card-fb {
     background-color: #ffffff;
     border-radius: 10px;
-    height: 272px;
-    width: 364px;
+    /* height: 272px;
+    width: 364px; */
 
-    margin: 0 10px 0 0;
+   
 }
 
 
@@ -201,7 +201,7 @@ hr {
         margin-left: 11rem!important;
     }
     #tourist-fb{
-        margin-left: 9rem!important;
+        margin-left: 0!important;
 
     }
 
@@ -236,7 +236,7 @@ hr {
         
     }
     .container{
-        width: 425px!important;
+    
         display: block!important;
     }
     .navbar-nav{
@@ -256,7 +256,7 @@ hr {
            margin-left: 0!important;
        }
        #tourist-fb{
-           margin-left: 0!important;
+           margin: 0!important;
    
        }
        .set-height-width{
